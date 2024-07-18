@@ -1,0 +1,97 @@
+/* Custom CSS for a more wonderful and comfortable design */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F3F7;
+    color: #2D2D2D;
+    font-family: "popins";
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #4A90E2;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filters input {
+    background-color: #E8EEF1;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+    color: #2D2D2D;
+}
+
+.filters input::placeholder {
+    color: #999999;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+}
+
+thead th {
+    padding: 15px;
+}
+
+tbody tr {
+    background-color: #FFFFFF;
+    color: #2D2D2D;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F9FAFB;
+}
+
+tbody tr:hover {
+    background-color: #E8EEF1;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+}
+@media (max-width: 768px) {
+    #transactionChart {
+        max-height: 300px; /* Limit chart height for smaller screens */
+    }
+}
+
+#chartContainer {
+    margin-top: 50px;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#transactionChart {
+    background-color: #FFFFFF;
+}
